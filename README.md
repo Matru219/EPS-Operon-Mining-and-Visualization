@@ -29,7 +29,8 @@ To run these scripts, you will need a standard bioinformatics environment (like 
 
    ```bash
    python extract_operons.py
-   
+
 3.Generate the comparative visual alignment:
-```bash
+   ```bash
    clinker candidate1.gbk candidate2.gbk -p final_eps_plot.html
+
