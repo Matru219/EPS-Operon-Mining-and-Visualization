@@ -24,3 +24,11 @@ To run these scripts, you will need a standard bioinformatics environment (like 
 1. Parse the genome to find your clusters:
    ```bash
    python find_eps_clusters.py eps_builders_GT.txt combined_genomic.gff
+   
+2.Update the coordinates in extract_operons.py based on your results, then run:
+
+   python extract_operons.py
+   
+3.Generate the comparative visual alignment:
+
+   clinker candidate1.gbk candidate2.gbk -p final_eps_plot.html
