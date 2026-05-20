@@ -30,7 +30,7 @@ def main():
 
     print("\n[*] Slicing Operons...")
     # Slice Candidate 1
-    c1_start, c1_end = 2514365 - 2000, 2542732 + 2000
+    c1_start, c1_end = 2514365 - 2000, 2542732 + 2000 #change the location co-ordinates according to the output of find_eps_clusters.py
     cand1 = chrom[c1_start:c1_end]
     cand1.id = "Candidate_1_EpsFG"
     cand1.name = "EpsFG"
@@ -39,7 +39,7 @@ def main():
     print(f"[+] Candidate 1 extracted: {c1_start} to {c1_end}")
 
     # Slice Candidate 2
-    c2_start, c2_end = 1326542 - 2000, 1353353 + 2000
+    c2_start, c2_end = 1326542 - 2000, 1353353 + 2000 #change the location co-ordinates according to the output of find_eps_clusters.py
     cand2 = chrom[c2_start:c2_end]
     cand2.id = "Candidate_2_Flippase"
     cand2.name = "Flippase"
